@@ -1,0 +1,17 @@
+@import url(https://fonts.googleapis.com/css?family=Trirong);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Trirong", sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  --header-color: #41444b;
+  --background-color: #dfd8c8;
+  background-color: var(--background-color);
+}

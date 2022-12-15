@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 30px 40px;
+  background-color: var(--header-color);
+  justify-content: space-between;
+  position: sticky;
+  z-index: 20;
+  align-items: center;
+  top: 0;
+  user-select: none;
+  -webkit-user-drag: none;
+}
+.header__right {
+  color: white !important;
+}
+.header__right > a,
+.header__left > a {
+  text-decoration: none;
+  margin-left: 10px !important;
+}
+
+.header__a {
+  color: white !important;
+}
+.header__a--active {
+  color: #43cb8f !important;
+}
+.header__a:hover {
+  text-decoration: underline;
+}
