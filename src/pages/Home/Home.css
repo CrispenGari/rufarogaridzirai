@@ -17,9 +17,10 @@
   display: flex;
   width: 100%;
   max-width: 1000px;
-  margin: 10px auto;
+  margin: 0 auto;
   flex: 1;
   padding: 10px;
+  background-color: white;
 }
 .home__main__content__left {
   flex: 0.2;

@@ -76,10 +76,13 @@ const Research: React.FC<Props> = () => {
                 <b>Garidzirai, R</b>. 2020. Time series analysis of carbon
                 dioxide emission, population, carbon tax and energy use in South
                 Africa. International Journal of Energy Economics and policy,
-                10(5): 353-360. <b>Garidzirai, R</b> & Meyer D. 2020. The
-                Contribution of Key Economic Sectors on Poverty Alleviation in
-                the Capricorn District Municipality: A Panel ARDL Model. African
-                Journal of Business and Economic Research, 15(2): 159 –172
+                10(5): 353-360.
+              </li>
+              <li>
+                <b>Garidzirai, R</b> & Meyer D. 2020. The Contribution of Key
+                Economic Sectors on Poverty Alleviation in the Capricorn
+                District Municipality: A Panel ARDL Model. African Journal of
+                Business and Economic Research, 15(2): 159 –172
               </li>
               <li>
                 Mhlanga, D & <b>Garidzirai, R</b>. 2020. Race and Energy demand
@@ -90,9 +93,12 @@ const Research: React.FC<Props> = () => {
                 <b>Garidzirai, R</b> & Pasara, M. T. 2020. An analysis of the
                 contribution of tourism on economic growth in South African
                 provinces: A panel analysis. GeoJournal of Tourism and Geosites,
-                28(2): 554-564 Pasara, M. T & <b>Garidzirai, R</b>. 2020.
-                Causality Effects among Gross Capital Formation, Unemployment
-                and Economic Growth in South Africa. Economies, 8(2): 1-12
+                28(2): 554-564
+              </li>
+              <li>
+                Pasara, M. T & <b>Garidzirai, R</b>. 2020. Causality Effects
+                among Gross Capital Formation, Unemployment and Economic Growth
+                in South Africa. Economies, 8(2): 1-12
               </li>
               <li>
                 <b>Garidzirai, R</b> & Bulelwa Nguza-Mduba. 2020. Does tourism
@@ -104,12 +110,15 @@ const Research: React.FC<Props> = () => {
                 <b>Garidzirai, R</b>. 2020. The contribution of agricultural
                 production on selected Sustainable Development Goals in the
                 BRICS bloc: A Panel Analysis. Eurasian Journal of Economics and
-                Finance, 8(3): 154-167 <b>Garidzirai, R</b>. An analysis of
-                crime and economic development in the Gauteng province: a time
-                series analysis. International Conference of Social Science,
-                Conference Proceeding, 2019. Zhanje, S & <b>Garidzirai, R</b>.
-                Export Performance and Foreign Direct Investment in Zimbabwe: An
-                ARDL Approach. International Conference on Public
+                Finance, 8(3): 154-167
+              </li>
+              <li>
+                <b>Garidzirai, R</b>. An analysis of crime and economic
+                development in the Gauteng province: a time series analysis.
+                International Conference of Social Science, Conference
+                Proceeding, 2019. Zhanje, S & <b>Garidzirai, R</b>. Export
+                Performance and Foreign Direct Investment in Zimbabwe: An ARDL
+                Approach. International Conference on Public
               </li>
               <li>
                 Sekwaila, C & <b>Garidzirai, R</b>. 2020. Education, poverty and

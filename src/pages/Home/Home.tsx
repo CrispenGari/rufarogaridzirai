@@ -15,7 +15,7 @@ const Home: React.FC<Props> = () => {
           </div>
           <div className="home__main__content__right">
             <div className="home__main__content__right__section">
-              <h1>Dr. Rufaro Gardidzirai (PhD)</h1>
+              <h1>Dr. Rufaro Garidzirai (PhD)</h1>
               <p>
                 Rufaro Garidzirai is a structured academic professional
                 illustrating a strong history of positive student learning
