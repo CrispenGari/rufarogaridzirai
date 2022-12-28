@@ -22,9 +22,8 @@ const AcademicService: React.FC<Props> = () => {
               </li>
               <li>
                 Serving in the International Conference on Business Resilience,
-                Continuity and
+                Continuity and Regeneration scientific committee.
               </li>
-              <li>Regeneration scientific committee.</li>
               <li>Serving in the faculty research committee</li>
               <li>
                 Represented the University at three international Conferences.
@@ -47,45 +46,6 @@ const AcademicService: React.FC<Props> = () => {
                 Conduct econometrics and research workshops in the department
               </li>
             </ul>
-            <h2>Projects</h2>
-            <table>
-              <thead>
-                <tr>
-                  <th>Company</th>
-                  <th>Project</th>
-                  <th>Function</th>
-                  <th>Year</th>
-                  <th>Value</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Walter Sisulu University</td>
-                  <td>
-                    Small Scale Agribusiness and rural Non-farm Enterprise
-                  </td>
-                  <td>Financial inclusion needs</td>
-                  <td>2020</td>
-                  <td>R50 000</td>
-                </tr>
-                <tr>
-                  <td>Walter Sisulu University</td>
-                  <td>Blue Economy and rural livelihood</td>
-                  <td>Community engagement research</td>
-                  <td>2020 </td>
-                  <td>R 50 000</td>
-                </tr>
-                <tr>
-                  <td>Walter Sisulu University</td>
-                  <td>
-                    Financial inclusion and financial well-being of Mthatha area
-                  </td>
-                  <td>Implementation</td>
-                  <td>2021</td>
-                  <td>R 50 000</td>
-                </tr>
-              </tbody>
-            </table>
           </div>
         </div>
         <Footer />
