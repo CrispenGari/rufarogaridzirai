@@ -1,4 +1,4 @@
-.awards {
+.academic__service {
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -6,15 +6,15 @@
   overflow-y: scroll;
   user-select: none;
 }
-.awards::-webkit-scrollbar {
+.academic__service::-webkit-scrollbar {
   display: none;
 }
-.awards__main {
+.academic__service__main {
   display: flex;
   flex-direction: column;
   flex: 1;
 }
-.awards__main__content {
+.academic__service__main__content {
   display: flex;
   flex-direction: column;
   width: 100%;
@@ -24,13 +24,16 @@
   background-color: white;
   padding: 30px;
 }
-.awards__main__content__item {
+.academic__service__main__content__item > p {
+  font-weight: 600;
+}
+.academic__service__main__content__item {
   margin-bottom: 30px;
 }
-.awards__main__content__item > p {
+.academic__service__main__content__item > p {
   margin-bottom: 10px;
 }
-.awards__main__content__item > h1 {
+.academic__service__main__content__item > h1 {
   text-decoration: underline #43cb8f;
   font-weight: 600;
   font-size: 1.3rem;
@@ -38,13 +41,13 @@
   user-zoom: none;
   text-transform: uppercase !important;
 }
-.awards__main__content__item > h2 {
+.academic__service__main__content__item > h2 {
   font-size: 1rem;
   font-weight: 600;
   margin-top: 20px;
 }
 
-.awards__main__content__item > table > thead > tr {
+.academic__service__main__content__item > table > thead > tr {
   background: #43cb8f;
   padding: 3px auto;
   color: white;
@@ -52,12 +55,12 @@
   letter-spacing: 1.5px;
 }
 
-.awards__main__content__item > table > tbody > tr {
+.academic__service__main__content__item > table > tbody > tr {
   background-color: #f5f5f5;
 }
-.awards__main__content__item > table > tbody > tr td {
+.academic__service__main__content__item > table > tbody > tr td {
   padding: 3px 10px !important;
 }
-.awards__main__content__item > table > tbody > tr:nth-of-type(even) {
+.academic__service__main__content__item > table > tbody > tr:nth-of-type(even) {
   background-color: white;
 }

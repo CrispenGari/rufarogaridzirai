@@ -28,11 +28,16 @@
 .research__main__content__item > p {
   margin-bottom: 10px;
 }
-.research__main__content__item > h1 {
-  text-decoration: underline #43cb8f;
+.research__main__content__item > h2 {
+  text-decoration: underline;
   font-weight: 600;
-  font-size: 1.3rem;
+  font-size: 1rem;
   user-select: none;
   user-zoom: none;
   text-transform: uppercase !important;
+  margin-top: 20px;
+}
+.research__main__content__item > ol > li,
+.research__main__content__item > ul > li {
+  margin-top: 5px;
 }

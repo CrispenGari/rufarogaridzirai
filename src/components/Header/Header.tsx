@@ -18,12 +18,20 @@ const Header: React.FC<Props> = () => {
       </div>
       <div className="header__right">
         <Link
+          to={"/academic-service"}
+          className={`header__a ${
+            location.pathname === "/academic-service" && "header__a--active"
+          }`}
+        >
+          Academic Service
+        </Link>
+        <Link
           to={"/awards"}
           className={`header__a ${
             location.pathname === "/awards" && "header__a--active"
           }`}
         >
-          Awards
+          Projects & Awards
         </Link>
         <Link
           to={"/research"}

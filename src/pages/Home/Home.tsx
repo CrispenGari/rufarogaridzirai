@@ -17,16 +17,18 @@ const Home: React.FC<Props> = () => {
             <div className="home__main__content__right__section">
               <h1>Dr. Rufaro Garidzirai (PhD)</h1>
               <p>
-                Rufaro Garidzirai is a structured academic professional
-                illustrating a strong history of positive student learning
-                outcomes, fostered through creative curriculum delivery. He is
-                skilled in sparking thought-provoking discussions to increase
-                student participation and increase information retention. Rufaro
-                Garidzirai is seeking a role which will leverage 8 years of
-                teaching experience and strong sense of academic integrity. His
-                current research interests stem from my passion to understand
-                the fundamentals of development economics, macroeconomics, and
-                transport economics.
+                Rufaro Garidzirai is a Y2 National Research Foundation (NRF)
+                rated researcher. His current research interests stem from the
+                passion to understand the fundamentals of development economics,
+                and macroeconomics. In 2020, and 2022 he won the institutional
+                high productivity emerging researcher award and distinguished
+                Vice Chancellor award at Walter Sisulu University. Dr Garidzirai
+                has more than 32 career publications, and his work has received
+                more than 200 citations up to date with an h- index of 8 and an
+                i10 index of 6. Currently, Dr Garidzirai is working on several
+                research projects that are in line with macroeconomics and
+                development economics with the objective of improving the social
+                and economic situation of the continent.
               </p>
             </div>
             <div className="home__main__content__right__section">

@@ -9,18 +9,48 @@ const Research: React.FC<Props> = () => {
       <div className="research__main">
         <div className="research__main__content">
           <div className="research__main__content__item">
-            <h1>ACADEMIC PUBLICATIONS</h1>
+            <h2>RESEARCH PUBLICATIONS</h2>
             <ol>
+              <li>
+                Moyo, C &amp; <b>Garidzirai, R.</b> 2022.{" "}
+                <a href="https://scholar.google.co.za/citations?view_op=view_citation&hl=en&user=tAdcX54AAAAJ&cstart=20&pagesize=80&citation_for_view=tAdcX54AAAAJ:QIV2ME_5wuYC">
+                  Trade balance and economic growth: Evidence from African
+                  countries
+                </a>
+                . <em>International Journal of Trade and Global Markets 15</em>{" "}
+                (4), 497-515
+              </li>
+              <li>
+                <b>Garidzirai, R.</b> 2022. The role of international tourism on
+                foreign trade in the BRICS countries. Cogent Social Sciences
+                8(1).
+              </li>
+              <li>
+                <b>Garidzirai, R</b> & Mapanga, A. 2022{" "}
+                <a href="https://scholar.google.co.za/citations?view_op=view_citation&hl=en&user=tAdcX54AAAAJ&cstart=20&pagesize=80&citation_for_view=tAdcX54AAAAJ:dhFuZR0502QC">
+                  An investigation of the macroeconomic determinants of
+                  consumption spending in South Africa.
+                </a>{" "}
+                <em>Acta Universitatis Danubius Œconomica</em> 18 (5)
+              </li>
+              <li>
+                Mhlanga, D & <b>Garidzirai, R.</b> 2022{" "}
+                <a href="https://scholar.google.co.za/citations?view_op=view_citation&hl=en&user=tAdcX54AAAAJ&cstart=20&pagesize=80&citation_for_view=tAdcX54AAAAJ:7PzlFSSx8tAC">
+                  Demand for Mobile Broadband Use by South African Households
+                </a>
+                : Does Gender Matter.{" "}
+                <em>African Journal of Gender, Society & Development 11</em>{" "}
+                (4), 135
+              </li>
               <li>
                 Lefatsa, P.M, Sibanda, K & <b>Garidzirai, R</b>. 2021. The
                 Relationship between Financial Development and Energy
                 Consumption in South Africa. Economies 9: 158. https://doi.org/
                 10.3390/economies9040158
               </li>
-
               <li>
-                Ntshwe, I & <b>Garidzirai, R</b>. 2021. Exploring the Influence
-                of Commodity Prices, Real Exchange Rate and Trade Openness on
+                Ntshwe, I & Garidzirai R. 2021. Exploring the Influence of
+                Commodity Prices, Real Exchange Rate and Trade Openness on
                 Economic Performance in an Emerging Country. International
                 Journal of Financial Research, 12(5)
               </li>
@@ -35,7 +65,6 @@ const Research: React.FC<Props> = () => {
                 African municipalities. The Journal for Transdisciplinary
                 Research in Southern Africa, 17(1): 1-8.
               </li>
-
               <li>
                 <b>Garidzirai, R</b> & Matiza, T. 2020. Exploring the
                 tourism-poverty alleviation nexus in the BRICS group of nations.
@@ -113,14 +142,6 @@ const Research: React.FC<Props> = () => {
                 Finance, 8(3): 154-167
               </li>
               <li>
-                <b>Garidzirai, R</b>. An analysis of crime and economic
-                development in the Gauteng province: a time series analysis.
-                International Conference of Social Science, Conference
-                Proceeding, 2019. Zhanje, S & <b>Garidzirai, R</b>. Export
-                Performance and Foreign Direct Investment in Zimbabwe: An ARDL
-                Approach. International Conference on Public
-              </li>
-              <li>
                 Sekwaila, C & <b>Garidzirai, R</b>. 2020. Education, poverty and
                 economic growth nexus in South Africa: A trivariate granger
                 approach. African Journal of Development Studies, 10(4): 63-75
@@ -143,71 +164,83 @@ const Research: React.FC<Props> = () => {
                 employment in the Capricorn District Municipality, South Africa.
                 Journal of Public Administration, 54(4.1): 908-917
               </li>
-            </ol>
-          </div>
-
-          <div className="research__main__content__item">
-            <h1>BOOK CHAPTERS</h1>
-            <ol>
               <li>
-                <b>Garidzirai, R</b>. 2021. An analysis of macroeconomic
-                objectives and crime in selected Gauteng local municipalities.
-                Standard of Living, Wellbeing, and Community Development:
-                IntechOpen
+                <b>Garidzirai, R</b>. An analysis of crime and economic
+                development in the Gauteng province: a time series analysis.
+                International Conference of Social Science, Conference
+                Proceeding, 2019.
               </li>
               <li>
-                Ganda, F & <b>Garidzirai, R</b>. 2021. The Environmental
-                Influence of Tax Regimes in Selected European Union Economies.
-                Green Technologies and Computing Industry: IntechOpen
+                Zhanje, S & <b>Garidzirai, R</b>. Export Performance and Foreign
+                Direct Investment in Zimbabwe: An ARDL Approach. International
+                Conference on Public
               </li>
             </ol>
-          </div>
-
-          <div className="research__main__content__item">
-            <h1>CONFERENCE PRESENTATIONS</h1>
-            <ol>
+            <h2>BOOK CHAPTERS</h2>
+            <ul>
+              <li>
+                Garidzirai, R. 2021. An analysis of macroeconomic objectives and
+                crime in selected Gauteng local municipalities. Standard of
+                Living, Wellbeing, and Community Development: IntechOpen
+              </li>
+              <li>
+                Ganda, F & Garidzirai, R. 2021.{" "}
+                <a href="https://www.intechopen.com/online-first/the-environmental-influence-of-tax-regimes-in-selected-european-union-economies">
+                  The Environmental Influence of Tax Regimes in Selected
+                  European Union Economies
+                </a>
+                . Green Technologies and Computing Industry: IntechOpen
+              </li>
+            </ul>
+            <h2>CONFERENCE PRESENTATIONS</h2>
+            <ul>
               <li>
                 <b>
-                  10TH International Conference of Social Science,
-                  Vanderbjlpark, South Africa, 2019:
-                </b>{" "}
-                An analysis of crime and economic development in the Gauteng
+                  10th International Conference of Social Science,
+                  Vanderbjlpark, South Africa, 2019
+                </b>
+                : An analysis of crime and economic development in the Gauteng
                 province: a time series analysis.
               </li>
               <li>
                 <b>
                   3rd Annual International Conference on Public Administration
-                  and Development Alternatives, Saldana Bay, South Africa:
-                </b>{" "}
-                Export Performance and Foreign Direct Investment in Zimbabwe: An
-                ARDL Approach.
+                  and Development Alternatives, Saldana Bay, South Africa
+                </b>
+                : Export Performance and Foreign Direct Investment in Zimbabwe:
+                An ARDL Approach.
               </li>
-
               <li>
                 <b>
                   9th International Conference of Social Science, George, South
-                  Africa, 2018.
+                  Africa, 2018
                 </b>
-                The impact of economic sectors on local economic development:
+                . The impact of economic sectors on local economic development:
                 The case of the Capricorn region, Limpopo Province South Africa.
               </li>
               <li>
                 <b>
-                  2 nd Annual International Conference on Public Administration
-                  and Development Alternatives, Gaborone, Botswana:
+                  2nd Annual International Conference on Public Administration
+                  and Development Alternatives, Gaborone, Botswana
                 </b>
-                The impact of themanufacturing sector on economic growth in
+                : The impact of themanufacturing sector on economic growth in
                 South Africa
               </li>
-            </ol>
-          </div>
-          <div className="research__main__content__item">
-            <h1>RESEARCH SKILLS</h1>
+            </ul>
+            <h2>Journal reviewer for the following journals</h2>
             <ul>
-              <li>Data collection</li>
-              <li>Questionnaire design</li>
-              <li>Use of ATLAS, SPSS, STATA & E-VIEWS</li>
-              <li>Report writing</li>
+              <li>
+                International Journal of Environmental Research and Public
+                Health
+              </li>
+              <li>Sustainability</li>
+              <li>Cogent Economics and Finance</li>
+              <li>Journal of Economic and Financial Sciences</li>
+              <li>African Journal of Economic and Management Studies</li>
+              <li>African Journal of Business and Economic Research</li>
+              <li>African Journal of Development Studies</li>
+              <li>Journal of Public administration</li>
+              <li>International Journal of Financial research</li>
             </ul>
           </div>
         </div>

@@ -4,6 +4,7 @@
   flex-direction: column;
   height: 100vh;
   overflow-y: scroll;
+  user-select: none;
 }
 .teaching::-webkit-scrollbar {
   display: none;
@@ -40,4 +41,30 @@
   font-weight: 600;
   font-size: 1rem;
   margin: 20px 0 5px 0;
+}
+
+.teaching__main__content__item > table > thead > tr {
+  background: #43cb8f;
+  padding: 3px auto;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+}
+
+.teaching__main__content__item > table > tbody > tr {
+  background-color: #f5f5f5;
+}
+.teaching__main__content__item > table > tbody > tr td {
+  padding: 3px 10px !important;
+}
+.teaching__main__content__item > table > tbody > tr:nth-of-type(even) {
+  background-color: white;
+}
+.teaching__main__content__item > table {
+  margin: 10px 0;
+}
+
+.teaching__main__content__item > p {
+  margin-top: 10px;
+  font-weight: 600;
 }
