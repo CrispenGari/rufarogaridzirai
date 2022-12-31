@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="face.jpeg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="This is a personal website for Dr. Rufaro Garidzirai (PhD in Economics)"
+    />
+    <link rel="apple-touch-icon" href="face.jpeg" />
+    <link rel="manifest" href="manifest.json" />
+    <title>Dr. Rufaro Garidzirai (PhD)</title>
+
+    <style>
+      @import url(https://fonts.googleapis.com/css?family=Trirong);
+
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        margin: 0;
+        font-family: "Trirong", sans-serif !important;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+
+      body {
+        --header-color: #41444b;
+        --background-color: #f5f5f5;
+        background-color: var(--background-color);
+      }
+
+      .footer {
+        width: 100%;
+        padding: 10px;
+        background-color: #41444b;
+        text-align: center;
+        font-size: 0.8rem;
+        color: white;
+      }
+      .not__found {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        user-select: none;
+        user-zoom: none;
+        flex-direction: column;
+        background-color: var(--color-gray);
+        overflow-y: hidden;
+        overflow-x: hidden;
+      }
+      .not__found__main > div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .not__found__main {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex: 1;
+        justify-content: center;
+      }
+      .not__found__main > div > h2 {
+        font-weight: bold;
+        letter-spacing: 2px;
+      }
+      .not__found__main > div > h1 {
+        color: #43cb8f;
+        letter-spacing: 4px;
+      }
+      .not__found__main > div > h1 > span:nth-of-type(2) {
+        color: black;
+        position: relative;
+        animation: bounce 2s ease 500ms infinite alternate;
+      }
+
+      .not__found__main > div > a {
+        color: var(--main-dark);
+        font-weight: 500;
+        margin: 20px auto;
+        text-decoration: underline;
+      }
+      .not__found__main > div > p {
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+      }
+      .not__found__main > div > p > a {
+        margin: 5px;
+      }
+      @keyframes bounce {
+        from {
+          top: 0;
+        }
+        to {
+          top: -100px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="not__found">
+      <div class="not__found__main">
+        <div>
+          <h1>
+            <span>4</span>
+            <span>0</span>
+            <span>4</span>
+          </h1>
+          <h2>Page Not Found Refresh Blocked.</h2>
+          <p>
+            <a href="/">HOME</a>
+            <a href="/academic-service"> Academic Service </a>
+            <a href="/awards"> Projects & Awards </a>
+            <a href="/research"> Research </a>
+            <a href="/teaching"> Teaching </a>
+          </p>
+        </div>
+      </div>
+      <div class="footer">
+        ©&nbsp; <span id="year"></span>&nbsp; Dr. Rufaro Garidzirai (PhD
+        Economics), Walter Sisulu University.
+      </div>
+    </div>
+    <script>
+      document.getElementById("year").innerText = new Date().getFullYear();
+    </script>
+  </body>
+</html>
