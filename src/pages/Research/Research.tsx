@@ -175,6 +175,17 @@ const Research: React.FC<Props> = () => {
                 Direct Investment in Zimbabwe: An ARDL Approach. International
                 Conference on Public
               </li>
+              <li>
+                Sibanda, K; Gonese, D &amp; <b>Garidzirai, R</b>. 2023. Human
+                Capital and Environmental Sustainability Nexus in Selected SADC
+                Countries. Resources 12 (4), 52
+              </li>
+              <li>
+                K Sibanda, <b>R Garidzirai</b>, F Mushonga, D Gonese. 2023.
+                Natural resource rents, institutional quality, and environmental
+                degradation in resource-rich Sub-Saharan African countries.
+                Sustainability 15 (2), 1141
+              </li>
             </ol>
             <h2>BOOK CHAPTERS</h2>
             <ul>

@@ -14,7 +14,7 @@ const NotFound: React.FC<Props> = () => {
             <span>4</span>
           </h1>
           <h2>Page Not Found.</h2>
-          <Link to={"/"}>Dr. Rufaro Garidzirai</Link>
+          <Link to={"/"}>Prof. Rufaro Garidzirai</Link>
         </div>
       </div>
       <Footer />

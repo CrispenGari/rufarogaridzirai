@@ -4,8 +4,8 @@ interface Props {}
 const Footer: React.FC<Props> = () => {
   return (
     <div className="footer">
-      ©&nbsp;{new Date().getFullYear()}&nbsp; Dr. Rufaro Garidzirai (PhD
-      Economics), Walter Sisulu University.
+      ©&nbsp;{new Date().getFullYear()}&nbsp; Prof. Rufaro Garidzirai (Professor
+      in Economics), Walter Sisulu University.
     </div>
   );
 };

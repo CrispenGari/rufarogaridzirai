@@ -11,24 +11,23 @@ const Home: React.FC<Props> = () => {
       <div className="home__main">
         <div className="home__main__content">
           <div className="home__main__content__left">
-            <img alt="Dr RG" src="/rg.jpeg" />
+            <img alt="Prof RG" src="/rg.jpeg" />
           </div>
           <div className="home__main__content__right">
             <div className="home__main__content__right__section">
-              <h1>Dr. Rufaro Garidzirai (PhD)</h1>
+              <h1>Prof. Rufaro Garidzirai</h1>
               <p>
-                Rufaro Garidzirai is a Y2 National Research Foundation (NRF)
-                rated researcher. His current research interests stem from the
-                passion to understand the fundamentals of development economics,
-                and macroeconomics. In 2020, and 2022 he won the institutional
-                high productivity emerging researcher award and distinguished
-                Vice Chancellor award at Walter Sisulu University. Dr Garidzirai
-                has more than 32 career publications, and his work has received
-                more than 200 citations up to date with an h- index of 8 and an
-                i10 index of 6. Currently, Dr Garidzirai is working on several
-                research projects that are in line with macroeconomics and
-                development economics with the objective of improving the social
-                and economic situation of the continent.
+                Prof. Rufaro Garidzirai, is a Y2 National Research Foundation
+                (NRF) rated researcher, is a decorated scholar in the fields of
+                development and macroeconomics at Walter Sisulu University.
+                Recognized for his contributions with the High Productivity
+                Emerging Researcher Award (2020, 2022) and the Distinguished
+                Vice Chancellor Award, his dedication to understanding economic
+                principles has led to over 32 publications, 200+ citations, and
+                robust h- and i10-indices of 8 and 7 respectively. Prof
+                Garidzirai ongoing projects continue his focus on bettering
+                socioeconomic conditions across the continent through economic
+                research.
               </p>
             </div>
             <div className="home__main__content__right__section">
