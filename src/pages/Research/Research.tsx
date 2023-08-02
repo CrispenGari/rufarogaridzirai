@@ -10,7 +10,105 @@ const Research: React.FC<Props> = () => {
         <div className="research__main__content">
           <div className="research__main__content__item">
             <h2>RESEARCH PUBLICATIONS</h2>
+
             <ol>
+              <li>
+                Sibanda, K; Gonese, D &amp; <b>Garidzirai, R.</b> 2023. Human
+                Capital and Environmental Sustainability Nexus in Selected SADC
+                Countries. Resources 12 (4), 52
+              </li>
+              <li>
+                K Sibanda, <b>R Garidzirai</b>, F Mushonga, D Gonese. 2023.
+                Natural resource rents, institutional quality, and environmental
+                degradation in resource-rich Sub-Saharan African countries.
+                Sustainability 15 (2), 1141
+              </li>
+              <li>
+                Moyo, C &amp; <b>Garidzirai, R.</b> 2022. Trade balance and
+                economic growth: Evidence from African countries. International
+                Journal of Trade and Global Markets 15 (4), 497-515
+              </li>
+              <li>
+                <b>Garidzirai, R.</b> 2022. The role of international tourism on
+                foreign trade in the BRICS countries. Cogent Social Sciences
+                8(1).
+              </li>
+              <li>
+                <b>Garidzirai, R </b>&amp; Mapanga, A. 2022 An investigation of
+                the macroeconomic determinants of consumption spending in South
+                Africa. Acta Universitatis Danubius Œconomica 18 (5)
+              </li>
+              <li>
+                Mhlanga, D &amp; <b>Garidzirai, R.</b> 2022 Demand for Mobile
+                Broadband Use by South African Households: Does Gender Matter.
+                African Journal of Gender, Society &amp; Development 11 (4), 135
+              </li>
+              <li>
+                Lefatsa, P.M, Sibanda, K &amp; <b>Garidzirai, R.</b> 2021. The
+                Relationship between Financial Development and Energy
+                Consumption in South Africa. Economies 9: 158. https://doi.org/
+                10.3390/economies9040158
+              </li>
+              <li>
+                <b>Garidzirai, R.</b> 2021. An autoregressive distributive lag
+                analysis of crime &amp; tourism in the western Cape Province,
+                South Africa. GeoJournal of Tourism and Geosites, 35(2):
+                304-308.
+              </li>
+              <li>
+                <b>Garidzirai, R </b>&amp; Matiza, T. 2020. Exploring the
+                tourism-poverty alleviation nexus in the BRICS group of nations.
+                Ekonomika, 99(1): 93–109
+              </li>
+
+              <li>
+                <b>Garidzirai, R </b>&amp; Muzindutsi, P.F. 2020. A panel
+                analysis of the productivity of key economic sectors
+                contributing to economic growth in the Capricorn district
+                municipal area. Studia Universitatis Babeş- Bolyai Oeconomica,
+                65(1): 39-53
+              </li>
+              <li>
+                <b>Garidzirai, R </b>&amp; Moyo, C. 2020. Tourism, Poverty and
+                Carbon Emissions in Newly Industrialized Countries. Journal of
+                Environmental management and tourism, 11(3): 653 - 668
+              </li>
+              <li>
+                Pasara, M.T &amp; <b>Garidzirai, R.</b> 2020. The Boomerang
+                Effects: An Analysis of the Pre and Post Dollarisation Era in
+                Zimbabwe. Economies, 8(2): 1-20
+              </li>
+              <li>
+                Mhlanga, D &amp; <b>Garidzirai, R.</b> 2020. The Influence of
+                Racial Differences in the Access to healthcare in South Africa:
+                A case of public healthcare. International Journal of
+                Environmental Research and Public Health, 17(14): 1-10
+              </li>
+              <li>
+                Mhlanga, D &amp; <b>Garidzirai, R.</b> 2020. Race and Energy
+                demand Explained in South Africa: The case of electricity.
+                Eurasian Journal of Business and Management, 8(3): 191 -204
+              </li>
+              <li>
+                <b>Garidzirai, R </b>&amp; Pasara, M. T. 2020. An analysis of
+                the contribution of tourism on economic growth in South African
+                provinces: A panel analysis. GeoJournal of Tourism and Geosites,
+                28(2): 554-564
+              </li>
+              <li>
+                Pasara, M. T &amp; <b>Garidzirai, R.</b> 2020. Causality Effects
+                among Gross Capital Formation, Unemployment and Economic Growth
+                in South Africa. Economies, 8(2): 1-12
+              </li>
+              <li>
+                <b>Garidzirai, R </b>&amp; Meyer, D. 2020. The impact of
+                economic sectors on local economic development: The case of the
+                Capricorn region, Limpopo Province South Africa. International
+                Journal of Economics and Finance studies 2019, 11(2): 19-34
+              </li>
+            </ol>
+
+            {/* <ol>
               <li>
                 Moyo, C &amp; <b>Garidzirai, R.</b> 2022.{" "}
                 <a href="https://scholar.google.co.za/citations?view_op=view_citation&hl=en&user=tAdcX54AAAAJ&cstart=20&pagesize=80&citation_for_view=tAdcX54AAAAJ:QIV2ME_5wuYC">
@@ -186,7 +284,7 @@ const Research: React.FC<Props> = () => {
                 degradation in resource-rich Sub-Saharan African countries.
                 Sustainability 15 (2), 1141
               </li>
-            </ol>
+            </ol> */}
             <h2>BOOK CHAPTERS</h2>
             <ul>
               <li>
