@@ -1,0 +1,76 @@
+{
+  "current_position": {
+    "title": "Research Coordinator Specialist",
+    "start_date": "10/2024",
+    "description": [
+      "Utilizes advanced analytical skills to conduct literature reviews, gather and analyze data, and interpret findings through an Africentric lens, ensuring cultural relevance and sensitivity in research outcomes.",
+      "Supports the grant funding process by preparing applications, meeting deadlines, and actively participating in project meetings, providing valuable insights and support as needed.",
+      "Prepares detailed project summaries and progress reports for both internal and external stakeholders, showcasing a comprehensive understanding of project goals and ensuring timely delivery of updates.",
+      "Collaborates with team members to prepare articles and presentations, effectively communicating research findings to engage and inform diverse audiences."
+    ],
+    "company_logo": "/delmore.png"
+  },
+  "previous_academic_experience": [
+    {
+      "position": "Associate Professor",
+      "institution": "Walter Sisulu University",
+      "start_date": "01/2023",
+      "end_date": "10/2024",
+      "description": [
+        "Led teaching and research in development economics, supervising Master’s and PhD students to completion.",
+        "Served as Faculty Research Chair and Postgraduate Coordinator, organizing research initiatives and coordinating postgraduate activities to enhance academic excellence.",
+        "Engaged in successful grant writing to secure funding for departmental and faculty research projects.",
+        "Contributed to university committees, including the Ethics and Higher Degrees Committees, guiding academic policies and upholding ethical research standards."
+      ],
+      "company_logo": "/wsu.png"
+    },
+    {
+      "position": "Lecturer",
+      "institution": "Walter Sisulu University",
+      "start_date": "01/2019",
+      "end_date": "12/2022",
+      "description": [
+        "Delivered lectures in economics, aligning curriculum with industry and academic advancements.",
+        "Supervised postgraduate research projects, providing mentorship and academic guidance to students.",
+        "Actively supported department research and faculty development, contributing to a culture of academic rigor and research productivity."
+      ],
+      "company_logo": "/wsu.png"
+    },
+    {
+      "position": "Senior Lecturer",
+      "institution": "University of Limpopo",
+      "start_date": "06/2018",
+      "end_date": "12/2018",
+      "description": [
+        "Delivered advanced lectures in economics, enhancing student engagement through a research-driven curriculum.",
+        "Mentored junior faculty members and supported departmental initiatives to elevate academic standards.",
+        "Supervised postgraduate research, fostering student skills in critical analysis and independent research."
+      ],
+      "company_logo": "/limpopo.png"
+    },
+    {
+      "position": "Lecturer",
+      "institution": "University of Limpopo",
+      "start_date": "05/2015",
+      "end_date": "05/2018",
+      "description": [
+        "Conducted undergraduate and postgraduate courses in economics, providing foundational and applied knowledge.",
+        "Engaged in curriculum development and contributed to departmental research projects.",
+        "Guided students in research projects, ensuring academic rigor and alignment with current economic issues."
+      ],
+      "company_logo": "/limpopo.png"
+    },
+    {
+      "position": "Junior Lecturer",
+      "institution": "University of Limpopo",
+      "start_date": "02/2014",
+      "end_date": "04/2015",
+      "description": [
+        "Assisted in teaching introductory economics courses, focusing on core concepts and critical thinking.",
+        "Supported senior lecturers in research projects and academic duties, gaining foundational teaching experience.",
+        "Provided academic support to students, helping to foster a solid understanding of economic principles."
+      ],
+      "company_logo": "/limpopo.png"
+    }
+  ]
+}

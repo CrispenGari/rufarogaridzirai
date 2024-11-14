@@ -1,0 +1,37 @@
+{
+  "name": "Prof. Rufaro Garidzirai",
+  "title": "Associate Professor",
+  "specializations": ["Development Economics", "Macroeconomics"],
+  "focus": [
+    "Economic Growth",
+    "Poverty Reduction",
+    "Inequality Reduction in Emerging Economies"
+  ],
+  "academic_impact": {
+    "h_index": 11,
+    "citations": 500
+  },
+  "biography": "Professor Rufaro Garidzirai is a distinguished Associate Professor specializing in development economics and macroeconomics, with a focus on enhancing economic growth, reducing poverty, and curbing inequality in emerging economies. His research addresses complex economic challenges with a deep commitment to improving the economic landscapes of developing regions. Professor Garidzirai has conducted impactful training programs, including research methodology workshops for postgraduate students, and has supported rural farmers and small businesses with sustainability practices and financing techniques. Additionally, he brings extensive experience in policy analysis and consulting, working with organizations to align policies with sustainable development goals.",
+  "experience": [
+    {
+      "role": "Academic",
+      "description": "Professor specializing in development economics and macroeconomics."
+    },
+    {
+      "role": "Policy Analyst",
+      "description": "Developed and implemented governance policies, particularly within environmental and municipal sectors."
+    },
+    {
+      "role": "Consultant",
+      "description": "Consulting with organizations such as Yanga Environmental Services and Agile Consulting and Advisory to provide strategic policy development and environmental scans."
+    },
+    {
+      "role": "Training and Development",
+      "description": "Conducted research methodology workshops and provided training for subsistence farmers and small businesses."
+    }
+  ],
+  "contact": {
+    "emails": ["garidzirairufaro@gmail.com", "rufarogari@gmail.com"],
+    "phone": ["+902 818 3298"]
+  }
+}

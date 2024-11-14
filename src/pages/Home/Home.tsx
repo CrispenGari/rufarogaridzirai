@@ -2,7 +2,16 @@ import React from "react";
 import { Footer, Header } from "../../components";
 import { HiOutlineMail } from "react-icons/hi";
 import { BiPhoneCall } from "react-icons/bi";
+import { MdFolderSpecial } from "react-icons/md";
+import { FcGraduationCap } from "react-icons/fc";
+import { CiTextAlignJustify } from "react-icons/ci";
+import { GiSoapExperiment } from "react-icons/gi";
+import { FcIdea } from "react-icons/fc";
+
+import { RiFocus2Line } from "react-icons/ri";
 import "./Home.css";
+import about from "../../data/about.json";
+import experience from "../../data/experience.json";
 interface Props {}
 const Home: React.FC<Props> = () => {
   return (
@@ -15,39 +24,121 @@ const Home: React.FC<Props> = () => {
           </div>
           <div className="home__main__content__right">
             <div className="home__main__content__right__section">
-              <h1>Prof. Rufaro Garidzirai</h1>
-              <p>
-                Prof. Rufaro Garidzirai, is a Y2 National Research Foundation
-                (NRF) rated researcher, is a decorated scholar in the fields of
-                development and macroeconomics at Walter Sisulu University.
-                Recognized for his contributions with the High Productivity
-                Emerging Researcher Award (2020, 2022) and the Distinguished
-                Vice Chancellor Award, his dedication to understanding economic
-                principles has led to over 32 publications, 200+ citations, and
-                robust h- and i10-indices of 8 and 7 respectively. Prof
-                Garidzirai ongoing projects continue his focus on bettering
-                socioeconomic conditions across the continent through economic
-                research.
-              </p>
+              <div className="home__main__content__right__section__names">
+                <h1>{about.name}</h1>
+                <p>{about.title}</p>
+              </div>
+
+              <p>{about.biography}</p>
             </div>
-            <div className="home__main__content__right__section">
+            <div className="home__main__content__right__section home__main__content__right__section--contact">
               <h1>Contacts Details</h1>
-              <p>
-                <HiOutlineMail className="home__icon" />
-                <span>garidzirairufaro@gmail.com</span>
-              </p>
-              <p>
-                <BiPhoneCall className="home__icon" />
-                <span>+27 81 399 4512</span>
-              </p>
+              <div className="home__main__content__right__section__row__items">
+                {about.contact.emails.map((email) => (
+                  <p key={email}>
+                    <HiOutlineMail className="home__icon" />
+                    <span>{email}</span>
+                  </p>
+                ))}
+              </div>
+              <div className="home__main__content__right__section__row__items">
+                {about.contact.phone.map((phone) => (
+                  <p key={phone}>
+                    <BiPhoneCall className="home__icon" />
+                    <span>{phone}</span>
+                  </p>
+                ))}
+              </div>
             </div>
-            <div className="home__main__content__right__section">
-              <h1>Research niche</h1>
-              <ul>
-                <li>Macroeconomics</li>
-                <li>Development economics</li>
-                <li>Environmental economics</li>
-              </ul>
+
+            <h1 className="home__main__content__heading">Current Position</h1>
+            <div className="home__main__content__right__section__row">
+              <div className="home__main__content__current__item">
+                <img
+                  alt={experience.current_position.title}
+                  src={experience.current_position.company_logo}
+                />
+                <div className="home__main__content__current__item__top">
+                  <div>
+                    <h1>{experience.current_position.title}</h1>
+                    <p>Joined {experience.current_position.start_date}</p>
+                  </div>
+                  {experience.current_position.description.map(
+                    (desc, index) => (
+                      <p key={index}>
+                        <FcIdea className="home__current__icon" />
+                        {desc}
+                      </p>
+                    )
+                  )}
+                </div>
+              </div>
+            </div>
+            <div className="home__main__content__right__section__row">
+              <div className="home__main__content__right__section">
+                <h1>Specialization</h1>
+                {about.specializations.map((item) => (
+                  <p key={item}>
+                    <MdFolderSpecial className="home__icon" />
+                    <span>{item}</span>
+                  </p>
+                ))}
+              </div>
+              <div className="home__main__content__right__section">
+                <h1>Focus</h1>
+                {about.focus.map((item) => (
+                  <p key={item}>
+                    <RiFocus2Line className="home__icon" />
+                    <span>{item}</span>
+                  </p>
+                ))}
+              </div>
+              <div className="home__main__content__right__section">
+                <h1>Academic Impact</h1>
+                <p>
+                  <FcGraduationCap className="home__icon" />
+                  <span>H-Index ({about.academic_impact.h_index})</span>
+                </p>
+                <p>
+                  <CiTextAlignJustify className="home__icon" />
+                  <span>Citation ({about.academic_impact.citations})</span>
+                </p>
+              </div>
+            </div>
+            <h1 className="home__main__content__heading">General Experience</h1>
+            <div className="home__main__content__right__section__row">
+              {about.experience.map((exp) => (
+                <div
+                  key={exp.role}
+                  className="home__main__content__right__section__row__experience"
+                >
+                  <h1>
+                    <GiSoapExperiment className="home__icon" />
+                    {exp.role}
+                  </h1>
+                  <p>{exp.description}</p>
+                </div>
+              ))}
+            </div>
+            <h1 className="home__main__content__heading">Work Experience</h1>
+            <div className="home__main__content__right__section__row">
+              {experience.previous_academic_experience.map((exp) => (
+                <div className="home__main__content__experience__item">
+                  <div className="home__main__content__experience__item__top">
+                    <img alt={exp.institution} src={exp.company_logo} />
+                    <div>
+                      <h1>{exp.institution}</h1>
+                      <p>
+                        {exp.start_date} - {exp.end_date}
+                      </p>
+                    </div>
+                  </div>
+                  <div className="home__main__content__experience__item__bottom">
+                    <h2>{exp.position}</h2>
+                    <p>{exp.description}</p>
+                  </div>
+                </div>
+              ))}
             </div>
           </div>
         </div>

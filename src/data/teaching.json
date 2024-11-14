@@ -1,0 +1,67 @@
+{
+  "teaching": [
+    {
+      "year": 2014,
+      "level": 2,
+      "institution": "University of Limpopo",
+      "module": "Microeconomics and Macroeconomics",
+      "role": "Lecturer"
+    },
+    {
+      "year": "2015-2018",
+      "level": 2,
+      "institution": "University of Limpopo",
+      "module": "Microeconomics and Macroeconomics",
+      "role": "Lecturer"
+    },
+    {
+      "year": "2015-2018",
+      "level": 3,
+      "institution": "University of Economics",
+      "module": "Development Economics & Monetary Economics",
+      "role": "Lecturer"
+    },
+    {
+      "year": "2015-2018",
+      "level": 4,
+      "institution": "University of Limpopo",
+      "module": "Advanced Macroeconomics",
+      "role": "Lecturer"
+    },
+    {
+      "year": "2015-2018",
+      "level": 4,
+      "institution": "University of Limpopo",
+      "module": "Advanced Research Methodology in Economics",
+      "role": "Lecturer"
+    },
+    {
+      "year": "2019-2024",
+      "level": 1,
+      "institution": "Walter Sisulu University",
+      "module": "Microeconomics & Macroeconomics",
+      "role": "Lecturer & Coordinator"
+    },
+    {
+      "year": "2019-2024",
+      "level": 3,
+      "institution": "Walter Sisulu University",
+      "module": "Labour Economics",
+      "role": "Lecturer & Coordinator"
+    },
+    {
+      "year": "2019-2024",
+      "level": 4,
+      "institution": "Walter Sisulu University",
+      "module": "Research Methodology & International Economics",
+      "role": "Postgraduate Coordinator & Lecturer"
+    },
+    {
+      "year": "2019-2024",
+      "level": 3,
+      "institution": "Walter Sisulu University",
+      "module": "Public Economics",
+      "role": "Lecturer"
+    }
+  ]
+}

@@ -31,13 +31,55 @@
   text-decoration: underline;
 }
 
+.home__main__content__experience__item {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 300px;
+}
+.home__main__content__experience__item__top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.home__main__content__experience__item__top > img {
+  height: 50px;
+  width: 50px;
+  object-fit: contain;
+}
+.home__main__content__experience__item__top > div {
+  display: flex;
+  flex-direction: column;
+}
+.home__main__content__experience__item__top h1 {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.7rem;
+}
+.home__main__content__experience__item__top p {
+  color: var(--header-color);
+  font-size: 0.6rem;
+}
+.home__main__content__experience__item__bottom > p {
+  font-size: 0.7rem;
+  text-align: justify;
+}
+.home__main__content__experience__item__bottom > h2 {
+  font-size: 0.7rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
 @media only screen and (max-width: 768px) {
   .header {
     flex-direction: column;
     align-items: center;
+    justify-content: center;
   }
   .header__left {
     text-transform: uppercase !important;
     margin-bottom: 10px;
+  }
+  .home__main__content__experience__item {
+    margin: 0px auto;
   }
 }

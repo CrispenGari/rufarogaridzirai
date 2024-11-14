@@ -1,0 +1,61 @@
+{
+  "supervision": {
+    "total_supervised": "Over 25 Master’s and PhD students",
+    "selected_projects": [
+      {
+        "student": "Andiswa Mafunda",
+        "title": "Health Capital and Labour Productivity Nexus in Selected SADC Countries",
+        "completion_year": 2023,
+        "institution": "Walter Sisulu University"
+      },
+      {
+        "student": "Mxolisi Venevene",
+        "title": "The Impact of Economic Globalization on Income Inequality in South Africa",
+        "completion_year": 2023,
+        "institution": "Walter Sisulu University"
+      },
+      {
+        "student": "Namha Xholo",
+        "title": "Digitalization and Economic Development in South Africa",
+        "completion_year": 2023,
+        "institution": "Walter Sisulu University"
+      },
+      {
+        "student": "Ondela Livi",
+        "title": "Tourism, Trade Openness, and Economic Development Nexus in Selected SADC Countries",
+        "completion_year": 2023,
+        "institution": "Walter Sisulu University"
+      },
+      {
+        "student": "Sikelelwa Pinda",
+        "title": "Unemployment and Crime Nexus in South Africa",
+        "completion_year": 2023,
+        "institution": "Walter Sisulu University"
+      },
+      {
+        "student": "Samkele Gxalo",
+        "title": "The Nexus Between Economic Globalization and Economic Development in Selected SADC Countries",
+        "completion_year": 2023,
+        "institution": "Walter Sisulu University"
+      },
+      {
+        "student": "Cebo Mawindi",
+        "title": "An Analysis of Financial Intermediation, Economic Performance, and Financial Depth in South Africa",
+        "completion_year": 2023,
+        "institution": "Walter Sisulu University"
+      },
+      {
+        "student": "Xola Ntshuntshe",
+        "title": "Testing the Environmental Kuznets Curve Hypothesis in South Africa",
+        "completion_year": 2022,
+        "institution": "Walter Sisulu University"
+      },
+      {
+        "student": "Palesa Milliscent Lefatsa",
+        "title": "The Relationship Between Financial Development and Energy Consumption in South Africa",
+        "completion_year": 2021,
+        "institution": "Walter Sisulu University"
+      }
+    ]
+  }
+}

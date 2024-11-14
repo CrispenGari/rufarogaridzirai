@@ -1,0 +1,36 @@
+{
+  "consulting_policy_work": {
+    "consulting_experience": [
+      {
+        "area": "Research and Analysis",
+        "description": "Provides consultation on economic modeling, development policy, and data analysis, specializing in macroeconomics and policy analysis."
+      },
+      {
+        "area": "Project Coordination",
+        "description": "Led the review and coordination of departmental research and postgraduate projects, aligning them with university standards and ethical guidelines."
+      },
+      {
+        "area": "Policy Impact Studies",
+        "description": "Examines socioeconomic issues and recommends actionable insights."
+      }
+    ],
+    "policy_analysis_experience": [
+      {
+        "area": "Policy Development",
+        "description": "Contributed to the development and implementation of innovative municipal and environmental policies at Yanga Environmental Services and Agile Consulting and Advisory, focusing on sustainable governance and environmental challenges."
+      },
+      {
+        "area": "Research and Reporting",
+        "description": "Conducted environmental scans, data analysis, and trend assessments to support informed policy decisions. Delivered presentations and reports to stakeholders, including senior leadership and government agencies, ensuring transparent communication of research findings."
+      },
+      {
+        "area": "Strategic Advisory",
+        "description": "Provided strategic advice and policy recommendations to improve governance frameworks, collaborating with provincial governments and stakeholders to align municipal policies with sustainable development goals."
+      },
+      {
+        "area": "Project Management",
+        "description": "Led research projects as a Research Project Manager at Walter Sisulu University and provided comprehensive reports to management and funding bodies, ensuring accountability and alignment with institutional objectives."
+      }
+    ]
+  }
+}

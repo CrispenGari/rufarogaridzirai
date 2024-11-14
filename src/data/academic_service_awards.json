@@ -1,0 +1,46 @@
+{
+  "academic_service": [
+    {
+      "role": "Microeconomics and Macroeconomics Coordinator",
+      "years": "2019-2023"
+    },
+    {
+      "role": "Department Research Coordinator",
+      "years": "2019-2022"
+    },
+    {
+      "role": "Teaching and Learning Coordinator",
+      "years": "2022-2023"
+    },
+    {
+      "role": "Faculty Ethics Committee Member",
+      "years": "2021-2023"
+    },
+    {
+      "role": "Non-Examining Chairperson",
+      "years": "2021-2023"
+    },
+    {
+      "role": "Faculty Research Chair",
+      "years": "2024"
+    },
+    {
+      "role": "Departmental Postgraduate Research Chair",
+      "years": "2024"
+    }
+  ],
+  "awards": [
+    {
+      "title": "National Research Fund (Y Rated Researcher)",
+      "year": 2023
+    },
+    {
+      "title": "Vice Chancellor Distinguished Emerging Researcher",
+      "year": 2022
+    },
+    {
+      "title": "Highly Productive Researcher (Emerging Category)",
+      "years": "2020-2021"
+    }
+  ]
+}
