@@ -23,9 +23,11 @@
 
 .header__a {
   color: white !important;
+  font-size: 0.9rem;
 }
 .header__a--active {
   color: #43cb8f !important;
+  font-size: 0.9rem;
 }
 .header__a:hover {
   text-decoration: underline;
@@ -74,6 +76,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
   }
   .header__left {
     text-transform: uppercase !important;
@@ -81,5 +85,12 @@
   }
   .home__main__content__experience__item {
     margin: 0px auto;
+  }
+
+  .header__a {
+    font-size: 0.8rem;
+  }
+  .header__a--active {
+    font-size: 0.8rem;
   }
 }

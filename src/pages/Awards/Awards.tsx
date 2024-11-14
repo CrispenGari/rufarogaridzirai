@@ -1,73 +1,110 @@
 import React from "react";
 import { Footer, Header } from "../../components";
 import "./Awards.css";
+import a from "../../data/academic_service_awards.json";
+import s from "../../data/supervision.json";
+import cp from "../../data/consulting_policy_work.json";
+import { FaAward } from "react-icons/fa";
+import { MdPerson, MdSupervisorAccount } from "react-icons/md";
+import { IoAnalytics, IoFlaskOutline } from "react-icons/io5";
+
 interface Props {}
 const Awards: React.FC<Props> = () => {
+  const awards = React.useMemo(() => a.awards, []);
+  const supervision = React.useMemo(() => s.supervision, []);
+  const consulting = React.useMemo(() => cp.consulting_policy_work, []);
   return (
     <div className="awards">
       <Header />
       <div className="awards__main">
         <div className="awards__main__content">
-          <div className="awards__main__content__item">
-            <h1>PROJECTS / AWARDS:</h1>
-            <h2>Awards</h2>
-            <ol>
-              <li>
-                <strong>2022</strong> Distinguished Vice Chancellor Award for
-                outstanding emerging best researcher
-              </li>
-              <li>
-                <strong>2022</strong> Most Productive Researcher at campus
-                level, Emerging Category
-              </li>
-              <li>
-                <strong>2022</strong> Most Productive Researcher at campus
-                level, Senior Category
-              </li>
-              <li>
-                <strong>2020</strong> Most Productive Researcher at
-                institutional level, Emerging Category
-              </li>{" "}
-            </ol>
-            <h2>Projects</h2>
-            <table>
-              <thead>
-                <tr>
-                  <th>Company</th>
-                  <th>Project</th>
-                  <th>Function</th>
-                  <th>Year</th>
-                  <th>Value</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Walter Sisulu University</td>
-                  <td>
-                    Small Scale Agribusiness and rural Non-farm Enterprise
-                  </td>
-                  <td>Financial inclusion needs</td>
-                  <td>2020</td>
-                  <td>R50 000</td>
-                </tr>
-                <tr>
-                  <td>Walter Sisulu University</td>
-                  <td>Blue Economy and rural livelihood</td>
-                  <td>Community engagement research</td>
-                  <td>2020 </td>
-                  <td>R 50 000</td>
-                </tr>
-                <tr>
-                  <td>Walter Sisulu University</td>
-                  <td>
-                    Financial inclusion and financial well-being of Mthatha area
-                  </td>
-                  <td>Implementation</td>
-                  <td>2021</td>
-                  <td>R 50 000</td>
-                </tr>
-              </tbody>
-            </table>
+          <h1>Awards</h1>
+          <hr />
+          <div className="awards__main__content__row">
+            {awards.map((award, index) => (
+              <div className="awards__main__content__award__item" key={index}>
+                <FaAward className="awards__main__content__award__item__icon" />
+                <div>
+                  <h1>{award.title}</h1>
+                  <p>{award?.year || award?.years}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <h1>consulting experience</h1>
+          <hr />
+          <div className="awards__main__content__row">
+            {consulting.consulting_experience.map((item, index) => (
+              <div className="awards__main__content__award__item" key={index}>
+                <IoFlaskOutline className="awards__main__content__award__item__icon" />
+                <div style={{ flex: 1 }}>
+                  <h1>{item.area}</h1>
+                  <p style={{ color: "black", fontSize: ".8rem" }}>
+                    {item.description}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <h1>policy analysis experience</h1>
+          <hr />
+          <div className="awards__main__content__row">
+            {consulting.policy_analysis_experience.map((item, index) => (
+              <div className="awards__main__content__award__item" key={index}>
+                <IoAnalytics className="awards__main__content__award__item__icon" />
+                <div style={{ flex: 1 }}>
+                  <h1>{item.area}</h1>
+                  <p style={{ color: "black", fontSize: ".8rem" }}>
+                    {item.description}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <h1>Supervision</h1>
+          <p>{supervision.total_supervised}</p>
+          <hr />
+          <div className="awards__main__content__row">
+            {supervision.selected_projects.map((item, index) => (
+              <div className="awards__main__content__award__item" key={index}>
+                <MdSupervisorAccount
+                  style={{
+                    fontSize: "1.5rem",
+                  }}
+                />
+                <div style={{ flex: 1 }}>
+                  <h1>{item.title}</h1>
+                  <div
+                    style={{
+                      display: "flex",
+                      gap: 10,
+                      marginTop: 3,
+                    }}
+                  >
+                    <MdPerson
+                      style={{
+                        fontSize: "2rem",
+                      }}
+                    />
+                    <div>
+                      <h2
+                        style={{
+                          fontSize: ".8rem",
+                        }}
+                      >
+                        {item.student}
+                      </h2>
+                      <p>
+                        {item.completion_year} ● {item.institution}{" "}
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
         <Footer />

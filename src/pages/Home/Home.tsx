@@ -31,6 +31,7 @@ const Home: React.FC<Props> = () => {
 
               <p>{about.biography}</p>
             </div>
+            <hr />
             <div className="home__main__content__right__section home__main__content__right__section--contact">
               <h1>Contacts Details</h1>
               <div className="home__main__content__right__section__row__items">
@@ -50,30 +51,27 @@ const Home: React.FC<Props> = () => {
                 ))}
               </div>
             </div>
-
+            <hr />
             <h1 className="home__main__content__heading">Current Position</h1>
-            <div className="home__main__content__right__section__row">
-              <div className="home__main__content__current__item">
-                <img
-                  alt={experience.current_position.title}
-                  src={experience.current_position.company_logo}
-                />
-                <div className="home__main__content__current__item__top">
-                  <div>
-                    <h1>{experience.current_position.title}</h1>
-                    <p>Joined {experience.current_position.start_date}</p>
-                  </div>
-                  {experience.current_position.description.map(
-                    (desc, index) => (
-                      <p key={index}>
-                        <FcIdea className="home__current__icon" />
-                        {desc}
-                      </p>
-                    )
-                  )}
+            <div className="home__main__content__current__item">
+              <img
+                alt={experience.current_position.title}
+                src={experience.current_position.company_logo}
+              />
+              <div className="home__main__content__current__item__top">
+                <div>
+                  <h1>{experience.current_position.title}</h1>
+                  <p>Joined {experience.current_position.start_date}</p>
                 </div>
+                {experience.current_position.description.map((desc, index) => (
+                  <p key={index}>
+                    <FcIdea className="home__current__icon" />
+                    {desc}
+                  </p>
+                ))}
               </div>
             </div>
+            <hr />
             <div className="home__main__content__right__section__row">
               <div className="home__main__content__right__section">
                 <h1>Specialization</h1>
@@ -105,6 +103,7 @@ const Home: React.FC<Props> = () => {
                 </p>
               </div>
             </div>
+            <hr />
             <h1 className="home__main__content__heading">General Experience</h1>
             <div className="home__main__content__right__section__row">
               {about.experience.map((exp) => (
@@ -120,6 +119,7 @@ const Home: React.FC<Props> = () => {
                 </div>
               ))}
             </div>
+            <hr />
             <h1 className="home__main__content__heading">Work Experience</h1>
             <div className="home__main__content__right__section__row">
               {experience.previous_academic_experience.map((exp) => (

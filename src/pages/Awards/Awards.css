@@ -24,40 +24,43 @@
   background-color: white;
   padding: 30px;
 }
-.awards__main__content__item {
-  margin-bottom: 30px;
-}
-.awards__main__content__item > p {
-  margin-bottom: 10px;
-}
-.awards__main__content__item > h1 {
-  text-decoration: underline #43cb8f;
+.awards__main__content > h1 {
+  margin: 30px 0;
+  text-align: center;
+  font-size: 0.8rem;
+  text-transform: uppercase;
   font-weight: 600;
-  font-size: 1.3rem;
-  user-select: none;
-  user-zoom: none;
-  text-transform: uppercase !important;
 }
-.awards__main__content__item > h2 {
-  font-size: 1rem;
-  font-weight: 600;
-  margin-top: 20px;
+.awards__main__content > p {
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: -25px;
+}
+.awards__main__content hr {
+  margin: 10px 0;
 }
 
-.awards__main__content__item > table > thead > tr {
-  background: #43cb8f;
-  padding: 3px auto;
-  color: white;
-  font-weight: 500;
-  letter-spacing: 1.5px;
+.awards__main__content__row {
+  flex-wrap: wrap;
+  gap: 10px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.awards__main__content__item > table > tbody > tr {
-  background-color: #f5f5f5;
+.awards__main__content__award__item {
+  display: flex;
+  align-items: flex-start;
+  gap: 5px;
+  width: 100%;
+  max-width: 300px;
 }
-.awards__main__content__item > table > tbody > tr td {
-  padding: 3px 10px !important;
+
+.awards__main__content__award__item h1 {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 600;
 }
-.awards__main__content__item > table > tbody > tr:nth-of-type(even) {
-  background-color: white;
+.awards__main__content__award__item p {
+  font-size: 0.7rem;
+  color: var(--green);
 }

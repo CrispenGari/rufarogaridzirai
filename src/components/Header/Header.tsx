@@ -31,7 +31,7 @@ const Header: React.FC<Props> = () => {
             location.pathname === "/awards" && "header__a--active"
           }`}
         >
-          Projects & Awards
+          Awards/Others
         </Link>
         <Link
           to={"/research"}
